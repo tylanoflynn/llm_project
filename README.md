@@ -11,7 +11,7 @@ The pretrained model that I started with was (distilbert-base-uncased-finetuned-
 
 ## Performance Metrics
 Bag-of-words tokenization with a SKLearn RandomForestClassifier (default parameters):
-
+```
 		precision    recall  f1-score   support
 
            0       0.83      0.84      0.83       489
@@ -20,8 +20,10 @@ Bag-of-words tokenization with a SKLearn RandomForestClassifier (default paramet
     accuracy                           0.84      1000
    macro avg       0.84      0.84      0.84      1000
 weighted avg       0.84      0.84      0.84      1000
+```
 
 distilbert-base-uncased-finetuned-sst-2-english:
+```
 
 		precision    recall  f1-score   support
 
@@ -31,7 +33,10 @@ distilbert-base-uncased-finetuned-sst-2-english:
     accuracy                           0.91      1000
    macro avg       0.91      0.90      0.91      1000
 weighted avg       0.91      0.91      0.91      1000
+```
 
+distilbert-base-uncased-finetuned-sst-2-english trained on IMDB dataset:
+```
 distilbert-base-uncased-finetuned-sst-2-english trained on IMDB dataset:
 
 		precision    recall  f1-score   support
@@ -42,6 +47,7 @@ distilbert-base-uncased-finetuned-sst-2-english trained on IMDB dataset:
     accuracy                           0.95      1000
    macro avg       0.95      0.95      0.95      1000
 weighted avg       0.95      0.95      0.95      1000
+```
 
 Unsurprisingly, accuracy improved in each case. It is worth noting that the increase in accuracy between base distilbert and distilbert refined on the IMDB dataset was a result of a large increase in precision when determining whether or not a sentiment is negative.
 

@@ -4,10 +4,10 @@
 Sentiment classification of movie reviews.
 
 ## Dataset
-For this project, I used the (imdb dataset)[https://huggingface.co/datasets/imdb] from Hugging Face.
+For this project, I used the [imdb dataset](https://huggingface.co/datasets/imdb) from Hugging Face.
 
 ## Pre-trained Model
-The pretrained model that I started with was (distilbert-base-uncased-finetuned-sst-2-english)[https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english]. From the Hugging Face website: "this model is a fine-tune checkpoint of DistilBERT-base-uncased, fine-tuned on (SST-2)[https://huggingface.co/datasets/sst2]."
+The pretrained model that I started with was [distilbert-base-uncased-finetuned-sst-2-english](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english). From the Hugging Face website: "this model is a fine-tune checkpoint of DistilBERT-base-uncased, fine-tuned on [SST-2](https://huggingface.co/datasets/sst2)."
 
 ## Performance Metrics
 Bag-of-words tokenization with a SKLearn RandomForestClassifier (default parameters):

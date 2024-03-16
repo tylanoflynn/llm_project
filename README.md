@@ -37,7 +37,6 @@ weighted avg       0.91      0.91      0.91      1000
 
 distilbert-base-uncased-finetuned-sst-2-english trained on IMDB dataset:
 ```
-distilbert-base-uncased-finetuned-sst-2-english trained on IMDB dataset:
 
 		precision    recall  f1-score   support
 

@@ -57,6 +57,7 @@ The test set is notably smaller, but given that it is a random sample of the ori
 
 The model from the lecture gave me a better idea of what pre-trained model to use and how to evaluate it. Using 'distilbert-base-uncased-finetuned-sst-2-english' from Hugging Face and a classification report gives
 
+```
 		precision    recall  f1-score   support
 
            0       0.87      0.92      0.89       509
@@ -65,6 +66,7 @@ The model from the lecture gave me a better idea of what pre-trained model to us
     accuracy                           0.89      1000
    macro avg       0.89      0.89      0.89      1000
 weighted avg       0.89      0.89      0.89      1000
+```
 
 
 Or to compare it to the scoring of the other models
